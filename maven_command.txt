@@ -1,0 +1,8 @@
+mvn help:describe -Dplugin=org.apache.maven.plugins:maven-war-plugin\  : to display available plug ins
+                  -Ddetail=true
+
+
+
+mvn clean install > log.txt :to save the build logd to a file
+
+mvn clean install -o   : to prevent maven from downloading dependencies every time.
